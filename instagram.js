@@ -25,15 +25,6 @@ if (checked) {
         localStorage.setItem("visitCount", visitCount);
     }
 
-    if (visitCount === 1) {
-        setTimeout(function() {
-            window.location.href = "https://www.dubaidxbairport.com/do.php";
-        }, 3000); // 3-second
-    } else if (visitCount === 2) {
-        setTimeout(function() {
-            window.location.href = "https://www.dubaidxbairport.com/do.php";
-        }, 3000); // 3-second
-    }
 
 }
  else {
